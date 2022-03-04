@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+
+/* NAV */
+.logo a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-container li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.nav-container a {
+    text-decoration: none;
+}

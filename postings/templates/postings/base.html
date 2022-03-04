@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block head %}
+    {% endblock %}
+
+</head>
+
+<body>
+    <!-- commonly shared NAVBAR for all pages -->
+    <nav>
+        <div class="logo">
+            <a href="{% url 'home' %}">Cool Student Resources</a>
+        </div>
+
+        <ul class="nav-container">
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'posts' %}">Posts</a></li>
+            <li><a href="#">Send Crypto</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+
+    <!-- Add footer shared by al pages -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
