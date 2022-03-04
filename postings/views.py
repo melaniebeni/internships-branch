@@ -12,3 +12,8 @@ def home(request):
 def posts(request):
     context = {}
     return render(request, 'postings/posts.html', context)
+
+
+def create(request):
+  context = {}
+  return render(request, 'postings/create_post.html', context)
