@@ -16,14 +16,22 @@
 <div class="home">
     <!-- Navbar -->
     <h1>Welcome to our Resources and Internships website!</h1>
-    <img  alt="homeimg"  src="/homeimg.png" width="900" height="300">
-    <h3>Explore Internships from renowned companies like</h3>
+  <br><br>
+    
+   <img  alt="homeimg"  src="{% static 'imgs/homeimg.png' %}" width="700" height="300">
+    <h3>Explore Internships from renowned companies like:</h3>
     <!-- Company Logos/ Examples -->
-    <br><br>
+  <p>Amazon, Google, Ford, NASA and many more!</p>
      <br><br>
-    <div class="getStarted" id="start">
-        <a href="{% url 'create' %}">Create Post</a>
+     <br><br>
+  <div class="getStarted" id="start">
+        <a href="{% url 'posts' %}">View an Internship</a>
     </div>
+  <br><br>
+    <div class="getStarted" id="start">
+        <a href="{% url 'create' %}">Post an Internship</a>
+    </div>
+  
     <br><br>
     <br><br>
     <a href="/admin">Admin</a>

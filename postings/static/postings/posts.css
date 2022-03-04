@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body {
     background-color: #242582;
 }
@@ -36,39 +32,12 @@ nav {
     text-decoration: none;
      color:#F64C72;
 }
-
-img{
-   width: 700px;
-   height: 300px;
-   position: relative;
-}
-
 h1{
   text-align:center;
-  font-family: Serif;
-  color: white;
-}
-h3{
   font-family: Serif;
   color: white;
 }
 p{
   font-family: Serif;
   color: white;
-}
-a:not(#start){
-  color:#F64C72;
-  size:15px;
-}
-#start{
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #99738E;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #99738E;
-
 }
