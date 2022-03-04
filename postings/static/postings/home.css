@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
 body {
-    background-color: lightgray;
+    background-color: #242582;
 }
 
 /* NAV */
 .logo a {
     text-decoration: none;
+    size: 20px;
+    color:#F64C72;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
+    font-family: Arial;
+    
 }
 
 .nav-container {
@@ -29,4 +34,32 @@ nav {
 
 .nav-container a {
     text-decoration: none;
+     color:#F64C72;
+}
+home {
+  
+}
+img{
+   width: 900px;
+   height: 300px;
+   position: relative;
+}
+h1{
+  text-align:center;
+  font-family: Serif;
+  color: white;
+}
+h3{
+  font-family: Serif;
+  color: white;
+}
+.getStarted{
+    background-color: white;
+    color: black;
+     border: 2px solid #99738E
+
+}
+a{
+  color:#F64C72;
+  size:15px;
 }

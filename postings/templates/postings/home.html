@@ -15,16 +15,19 @@
 {% block content %}
 <div class="home">
     <!-- Navbar -->
-    <a>Welcome to our Resources and Internships website!</a>
-    <div class="img">
-            <img  alt="homeimg"  src="homeimg.png" width="900" height="300">
-    </div>
+    <h1>Welcome to our Resources and Internships website!</h1>
+    <img  alt="homeimg"  src="/homeimg.png" width="900" height="300">
     <h3>Explore Internships from renowned companies like</h3>
     <!-- Company Logos/ Examples -->
+    <br><br>
+     <br><br>
     <div class="getStarted" id="start">
-        <button onclick=""; >Click Here to Get Started</button>
+        <a href="{% url 'create' %}">Create Post</a>
     </div>
+    <br><br>
+    <br><br>
     <a href="/admin">Admin</a>
+   <br><br>
     <a href="">Support</a>
   </div>
   

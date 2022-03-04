@@ -7,11 +7,18 @@
 {% endblock %}
 
 {% block content %}
-<form action="" style="border:1px solid #ccc">
+  <!-- After submit, the user will se the note below -->
+<h2> {{ note }}</h2>
+<form action="{% url 'create' %}" method="post" style="border:1px solid #ccc">
+  {% csrf_token %}
     <div class="container">
         <h1>Sign Up</h1>
         <p>Please fill out the following to create a post.</p>
-        <hr>
+      
+        {{ internshipform }}
+
+      
+<!--         <hr>
         <br><br>
         <label for="internship_name"><b>Internship Name</b></label>
         <input type="text" placeholder="" id="internshipname" name="internshipname" required>
@@ -24,8 +31,9 @@
         <br><br>
       <label for="description"><b>Description</b></label>
         <input type="text" placeholder="" id="desc" name="desc" required>
-        <br><br>
-      </div>
+        <br><br> -->
+      <input type="submit" value="Submit Post">
+    </div>
 </form>
 
             
