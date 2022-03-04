@@ -16,4 +16,4 @@ def posts(request):
 
 def create(request):
   context = {}
-  return render(request, 'postings/create_post.html', context)
+  return render(request, 'postings/create.html', context)
